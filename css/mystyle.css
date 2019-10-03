@@ -1,121 +1,117 @@
-body {
-  /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,160,1) 35%, rgba(0,212,255,1) 100%); */
-  background: #424242;
-  padding-top: 3vw;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-nav {
-  background-color: black;
-  position: fixed;
+body{
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,160,1) 35%, rgba(0,212,255,1) 100%);
+  padding-top:3vw
+  }
+  
+  nav{
+  background-color:black;
+  position:fixed;
   left: 0;
   right: 0;
-  top: 0;
-  z-index: 1000;
-  font-size: 1.25rem;
-}
-
-#navbar-ul {
-  float: left;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-around;
-  /* font-size: 30px; */
-  padding: 0px;
-  padding-left: 2vw;
-  margin-top: 00.2vw;
-  margin-bottom: 0.6vw;
-}
-
-nav li {
+  top:0; 
+  z-index:1000;
+  
+  }
+  
+  #navbar-ul{
+  float:left;
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  justify-content:space-around;
+  font-size:30px;
+  padding:0px;
+  padding-left:2vw;
+  margin-top:00.2vw;
+  margin-bottom:0.6vw;
+  }
+  
+  nav li{
   padding-right: 3vw;
-}
-
-.nav-link {
+  }
+  
+  .nav-link{
   text-decoration: none;
-  color: white;
-}
-#welcome-section {
-  display: inline-block;
-  text-align: center;
-  color: white;
-  position: relative;
-  width: 100%;
+  color:white;    
+  }
+  #welcome-section{display:inline-block;
+  text-align:center;
+  color:white;
+  position:relative;
+  width:100%;
   margin-left: auto;
-  margin-right: auto;
-  top: 40vh;
-  /* height: 100vh; */
-  /* font-size: 3vw; */
-  /* font-family: Georgia, Helvetica; */
-  margin-bottom: 50vh;
-}
-
-#projects-section {
-  background-color: #aaa;
-  /* border-radius: 40%; */
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 50vh;
-  display: grid;
-  grid-template-areas:
-    "a"
-    "b "
-    "c";
-  justify-items: center;
-}
-
-.project-section-header {
-  grid-area: a;
-  font-size: 1.5rem;
-  /* font-family: "Major Mono Display"; */
-  padding: 10px;
-  text-transform: uppercase
-
-}
-.individual-project-container {
-  padding-bottom: 20px;
-}
-
-.project-title {
-  /* font-family: "Roboto Mono"; */
-  text-align: center;
-  font-size: 1.5vw;
-  padding-top: 10px;
-}
-.project-link {
-  text-decoration: none;
-  color: #111;
-  font-size: 1.5vw;
-}
-.project-picture {
-  width: 40%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#project-1 {
-  grid-area: b;
-}
-#virus-image {
-  background-color: white;
-  border-radius: 40%;
-}
-#octocat {
-  border-radius: 50%;
-  width: 4vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20vh;
-  margin-bottom: 5px;
-}
-.profile-text {
-  font-family: "Major Mono Display";
-}
-#profile {
-  width: 100%;
-  font-size: 0.8vw;
-  text-align: center;
-}
+  margin-right:auto;
+  top:20vh;
+  height:100vh;
+  font-size:3vw;
+  font-family:Georgia,Helvetica;}
+  
+  #projects-section{
+      background-color: orange;
+      border-radius: 40%;
+      width: 85%;
+      margin:0 auto;
+      display: grid;
+      grid-template-areas: "a"
+                              "b "
+                          "c";
+      justify-items:center;
+                          }
+  .project-section-header{
+      grid-area: a;
+      font-size:3vw;
+      font-family:'Major Mono Display'; 
+      padding:10px; 
+  }
+  .individual-project-container{
+      padding-bottom:20px;
+      
+  }
+  
+  .project-title{
+      font-family:'Roboto Mono';
+      text-align:center;
+      font-size:1.5vw;
+      padding-top:10px;            
+  }
+  .project-link{
+      text-decoration: none;
+      color:black;
+      font-size:1.5vw;
+  }
+  .project-picture{
+      
+      width:40%;
+      display:block;
+      margin-left:auto;
+      margin-right: auto;
+  }
+  #project-1{
+      grid-area:b ;
+      
+  }
+  #virus-image{
+      background-color:white;
+      border-radius: 40%;
+      
+  }
+  #octocat{
+      border-radius:50%;
+      width:4vw;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:20vh;
+      margin-bottom: 5px;
+      
+  }
+  .profile-text{
+      font-family: "Major Mono Display";
+  
+  }
+  #profile{
+      
+      width:100%;
+      font-size:0.8vw;
+      text-align: center;
+    }
